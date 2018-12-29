@@ -37,7 +37,9 @@ Finalmente usamos el siguiente comando para hacer el despliegue
 Si no aparece la aplicación en la dirección de Hosting intente correr el siguiente comando antes de hacer un nuevo deploy
 
  > npm run build
+ 
+ y en directorio firebase.json en la propiedad "public": "public" cambiar por "public": "build"
 
-y de nuevo 
+y de nuevo correr el comando: 
 
  > firebase deploy 
